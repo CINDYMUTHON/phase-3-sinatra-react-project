@@ -16,7 +16,7 @@ production:
   adapter: postgresql
   encoding: unicode
   database: pets_rknh
-  host: <%= ENV['DATABASE_HOST'] %>
+  host: dpg-cg39p0l269v3bp94pap0-a.oregon-postgres.render.com
   pool: 2
   username: cindy
-  password: <%= ENV['DATABASE_PASSWORD'] %>
+  password: 3s5ixJKXcqOfA8mfAzqSLK3klHxoZAb6

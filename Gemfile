@@ -32,6 +32,11 @@ group :development do
     
 end
 
+group :development do
+    gem 'rerun', '~> 0.14.0'
+    
+end
+
 group :test do
     # gem 'database_cleaner', '~> 2.0', '>= 2.0.1'
     gem 'rack-test', '~> 2.0', '>= 2.0.2'
