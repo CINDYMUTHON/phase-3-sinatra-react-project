@@ -24,6 +24,9 @@ gem 'puma', '~> 6.1'
 
 gem 'require_all', '~> 3.0'
 
+gem 'pg', '>=1.1.3'
+
+
 group :development do
     gem 'rerun', '~> 0.14.0'
     
