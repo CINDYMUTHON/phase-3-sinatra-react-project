@@ -26,13 +26,15 @@ gem 'require_all', '~> 3.0'
 
 gem 'pg', '>=1.1.3'
 
+gem 'rerun', '~> 0.14.0'
+
 
 group :development do
     gem 'rerun', '~> 0.14.0'
     
 end
 
-group :development do
+group :production do
     gem 'rerun', '~> 0.14.0'
     
 end
